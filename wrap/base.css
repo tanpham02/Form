@@ -1,0 +1,47 @@
+/* Reset Css */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+    width: 1200px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    width: 50%;
+    margin-top: 10px;
+}
+
+:root {
+    --white-color: #fff;
+    --text-color: #333;
+    --primary-color: #65ac5c; 
+}
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 10px;
+    min-width: 90px;
+}
+
+.margin-bt-8px {
+    margin-bottom: 8px;
+}
+
