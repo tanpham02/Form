@@ -20,6 +20,7 @@ html {
 .row {
     display: flex;
     flex-wrap: wrap;
+    max-width: calc(100% + 32px);
 }
 
 .col-2 {
